@@ -1,0 +1,44 @@
+{
+  "name": "@michbuett/app-template",
+  "author": "Michael Büttner <michbuett@gmx.de>",
+  "description": "",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michbuett/app-template.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  },
+  "license": "UNLICENSED",
+  "main": "tmp/index.html",
+  "window": {
+    "position": "center",
+    "toolbar": true,
+    "frame": true
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-jasmine": "^0.9.2",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-sass": "~0.9.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-exorcise": "^2.1.0",
+    "grunt-jsonlint": "~1.0.6",
+    "grunt-nw-builder": "^2.0.0",
+    "grunt-template-jasmine-nml": "^1.3.0"
+  },
+  "dependencies": {
+    "alchemy.js": "^1.1.1",
+    "coquo-venenum": "^1.1.1",
+    "immutabilis": "^2.0.4",
+    "pro-singulis": "^1.2.0"
+  }
+}
